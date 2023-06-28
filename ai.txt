@@ -1,0 +1,18 @@
+1. Did you attempt to make your computer player very smart -- i.e., do something more clever than just pick a random legal move?
+Yes, the computer player will choose the legal position which could flip most black tiles
+
+2. If so, were you able to accomplish this? Is your computer player as smart as you would like?
+In total, my computer player is smarter than me.
+Although I could calculate total flips for every legal position too, but sometimes I will miss some postions or miss some directions when counting. 
+
+3. How did you determine which piece to play next? Tell us about your “pick next move” algorithm
+1) Scan the board to find all legal positions for computer
+2) For each legal position, count the total number of black tiles it can flip (in eight directions)
+3) Choose the legal position which has most tiles to flip
+
+4. How often did your computer program beat you, or your friends, or whoever tested it out for you?
+Very often.
+When we play the game, sometimes we simply choose the postion which can flip most white tiles on one direction, sometimes we could not recognize all possible flips
+
+5. How would you improve it in the future?
+Maybe try to let the computer to predict human player's move, and choose positions accordingly
